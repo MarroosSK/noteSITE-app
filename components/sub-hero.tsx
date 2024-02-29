@@ -1,26 +1,15 @@
 "use client";
 
-import React, { useState } from "react";
-import { Button } from "./ui/button";
+import { useState } from "react";
+
 import img1 from "../public/editor.jpg";
 import img2 from "../public/settings.jpg";
 import img3 from "../public/subscribe.jpg";
-import { Card, CardContent, CardDescription, CardHeader } from "./ui/card";
+
 import Image from "next/image";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-// Default theme
-import "@splidejs/react-splide/css/core";
-import { AutoplayExample } from "./auto-splide";
-import { ReactivityExample } from "./dynamic-splide";
-import {
-  DoorClosed,
-  Handshake,
-  NotebookPen,
-  Option,
-  Palette,
-  Paperclip,
-} from "lucide-react";
+
 import { cn } from "@/lib/utils";
+import { Handshake, NotebookPen, Palette } from "lucide-react";
 
 const heroData = [
   {
